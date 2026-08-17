@@ -26,6 +26,7 @@ consumer = KafkaConsumer(
 
 for msg in consumer:
     print(msg)
+    
 
 
 
